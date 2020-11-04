@@ -1,11 +1,9 @@
 package io.github.kimmking.gateway.benchmark;
 
-import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,7 +21,7 @@ public class Benchmark {
     public static void main(String[] args) {
         String url = "http://www.baidu.com";
         httpGet(url);
-        BenchMarkResult benchMarkResult = benchMark(8 * 3, 1000, url);
+        BenchMarkResult benchMarkResult = benchMark(8 * 3, 60 * 1000, url);
         System.out.println(benchMarkResult);
     }
 
@@ -52,7 +50,8 @@ public class Benchmark {
         List<Long>      durationList    = durations.stream().collect(Collectors.toList());
         Collections.sort(durationList);
         int    size = durationList.size();
-        double qps  = size / ((programEnd - programStart) / 60 * 1000.0);
+        double min  = (programEnd - programStart) / 60 / 1000.0;
+        double qps  = size / min;
         benchMarkResult.setQps(qps);
 
         Long   totalTime  = durationList.stream().reduce((x, y) -> x + y).get();
