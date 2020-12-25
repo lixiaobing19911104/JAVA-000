@@ -2,18 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8808b59-33f1-452c-97fd-2fcd6983612a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/tcc_test/tcc_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/DemoTcc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/TccDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/annotation/TccAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/annotation/TccTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/aspect/BranchTransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/aspect/GloblalTransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/aspect/RootContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/aspect/TccClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/aspect/TccTransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/comtroller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/entity/TransactionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/enums/TransactionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/enums/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/mappers/TransactionInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/service/impl/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/service/impl/StoreAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/java/com/lxb/tcc/service/impl/UserAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/resources/mybatis/mapper/TransactionInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoTcc/src/main/resources/sql/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_08/XATest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_08/XATest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_08/tcc_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_08/tcc_test/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/Week_08/tcc_test/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="483">
-                <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+              <first_editor relative-caret-position="266">
+                <caret line="47" selection-start-line="47" selection-end-line="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -187,43 +208,7 @@
             <path>
               <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
               <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
               <item name="Week_08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_08" type="462c0819:PsiDirectoryNode" />
-              <item name="tcc_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
-              <item name="Week_10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,7 +320,7 @@
       <workItem from="1606873259259" duration="19000" />
       <workItem from="1606981476871" duration="22000" />
       <workItem from="1608794954665" duration="256000" />
-      <workItem from="1608795684044" duration="3216000" />
+      <workItem from="1608795684044" duration="4346000" />
     </task>
     <task id="LOCAL-00001" summary="第一周作业">
       <created>1602920680428</created>
@@ -407,11 +392,25 @@
       <option name="project" value="LOCAL" />
       <updated>1606220243947</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tcc测试">
+      <created>1608877200721</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608877200721</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tcc测试">
+      <created>1608877219700</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608877219700</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20986000" />
+    <option name="totallyTimeSpent" value="22116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -501,7 +500,8 @@
     <MESSAGE value="httpClient" />
     <MESSAGE value="netty gateway" />
     <MESSAGE value="测试建表sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试建表sql" />
+    <MESSAGE value="tcc测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="tcc测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -784,8 +784,8 @@
     <entry file="file://$PROJECT_DIR$/Week_08/tcc_test/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="483">
-            <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <first_editor relative-caret-position="266">
+            <caret line="47" selection-start-line="47" selection-end-line="47" />
           </first_editor>
           <second_editor />
         </state>
