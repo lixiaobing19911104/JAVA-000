@@ -12,10 +12,10 @@ import net.bytebuddy.implementation.InvocationHandlerAdapter;
 public class RpcByteBody extends RpcProxy implements RpcClient {
     @Override
     @SneakyThrows
-    protected <T> Object newProxy(Class<T> serviceClass, String url) {
+    protected <T> Object newProxy(Class<T> serviceClass, String group, String version) {
         return new ByteBuddy().subclass(Object.class)
                 .implement(serviceClass)
-                .intercept(InvocationHandlerAdapter.of(new RpcInvocationHandler(serviceClass, url)))
+                .intercept(InvocationHandlerAdapter.of(new RpcInvocationHandler(serviceClass, group, version)))
                 .make()
                 .load(RpcByteBody.class.getClassLoader())
                 .getLoaded()

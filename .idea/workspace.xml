@@ -2,7 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8808b59-33f1-452c-97fd-2fcd6983612a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/demoRpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_google_guava_guava_30_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_aop_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_beans_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_core_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_springframework_spring_test_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/demoRpc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-core/rpc-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/rpc-core/rpc-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/rpc-demo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/rpc-demo-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/classes/demo/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/classes/demo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/classes/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/classes/demo/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/classes/demo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/test-classes/com/lxb/demo/model/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/test-classes/com/lxb/demo/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/test-classes/com/lxb/demo/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/test-classes/com/lxb/demo/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-api/target/test-classes/com/lxb/demo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-client/rpc-demo-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-client/rpc-demo-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-client/target/classes/demo/DemoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-server/rpc-demo-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-server/rpc-demo-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-server/target/classes/demo/ServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-server/target/classes/demo/config/BeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-server/target/classes/demo/rpc/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/demoRpc/rpc-demo-server/target/classes/demo/rpc/UserServiceImpl.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,91 +100,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_08/shardTest/README.md">
+        <entry file="file://$PROJECT_DIR$/Week_08/tcc_test/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-4087" />
+              <first_editor relative-caret-position="486">
+                <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_08/XATest/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="277">
-                <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
-            </state>
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClentInitializer.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClientSyncHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week_08/tcc_test/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="54" selection-start-line="54" selection-end-line="54" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_08/shardTest/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_08/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_08/shardTest/shardTest.iml">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcNettyServer.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_04/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_02/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/ByteArrayInputStream.java">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcServerHandler.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcProtocol.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcEncoder.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -155,7 +205,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="180" />
     <option name="y" value="112" />
     <option name="width" value="1080" />
@@ -166,6 +216,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JAVA-000" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JAVA-000" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +243,183 @@
             <path>
               <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
               <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_09" type="462c0819:PsiDirectoryNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lxb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
               <item name="Week_10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,18 +431,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JAVA-000" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JAVA-000" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,12 +615,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22656000" />
+    <option name="totallyTimeSpent" value="23851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31232092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34240687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -407,7 +635,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24844721" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24844721" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -761,8 +989,8 @@
     <entry file="file://$PROJECT_DIR$/Week_08/tcc_test/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <first_editor relative-caret-position="486">
+            <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>

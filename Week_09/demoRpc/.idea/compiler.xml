@@ -12,7 +12,13 @@
         <module name="rpc-demo-client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="demoRpc" target="1.8" />
+      <module name="rpc-core" target="1.8" />
+      <module name="rpc-demo-api" target="1.8" />
+      <module name="rpc-demo-client" target="1.8" />
+      <module name="rpc-demo-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

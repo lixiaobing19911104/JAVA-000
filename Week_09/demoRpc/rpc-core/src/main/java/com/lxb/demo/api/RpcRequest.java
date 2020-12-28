@@ -10,7 +10,9 @@ import lombok.Data;
 @Data
 public class RpcRequest {
 
-    private String serviceClass;
-    private String method;
+    private String   serviceClass;
+    private String   method;
     private Object[] argv;
+    private String   group;
+    private String   version;
 }

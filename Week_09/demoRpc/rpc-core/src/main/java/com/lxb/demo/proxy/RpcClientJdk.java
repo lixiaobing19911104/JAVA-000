@@ -10,9 +10,9 @@ import java.lang.reflect.Proxy;
 public class RpcClientJdk extends RpcProxy implements RpcClient {
 
     @Override
-    protected <T> Object newProxy(Class<T> serviceClass, String url) {
+    protected <T> Object newProxy(Class<T> serviceClass, String group, String version) {
         return Proxy.newProxyInstance(this.getClass().getClassLoader(),
                 new Class[]{serviceClass},
-                new RpcInvocationHandler(serviceClass, url));
+                new RpcInvocationHandler(serviceClass, group, version));
     }
 }

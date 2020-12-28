@@ -11,14 +11,15 @@ import java.util.concurrent.ConcurrentMap;
  */
 public abstract class RpcProxy {
 
-    public <T> T create(Class<T> serviceClass, String url) {
+    public <T> T create(Class<T> serviceClass, String group, String version) {
         if (!isExist(serviceClass.getName())) {
-            add(serviceClass.getName(), newProxy(serviceClass, url));
+            add(serviceClass.getName(), newProxy(serviceClass, group, version));
         }
         return (T) getProxy(serviceClass.getName());
     }
 
-    protected abstract  <T> Object newProxy(Class<T> serviceClass, String url);
+    protected abstract <T> Object newProxy(Class<T> serviceClass, String group, String version);
+
 
     private ConcurrentMap<String, Object> proxyCache = new ConcurrentHashMap<>();
 

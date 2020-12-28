@@ -2,43 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95c922b-6f85-4d05-8889-a045d40e3e39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rpc-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/exception/RpcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClentInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClientSyncHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcNettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/model/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-client/src/main/java/demo/DemoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/demoRpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_x_discovery_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/annotation/RpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/ProviderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcProviderDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/DiscoverServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/DiscoveryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/ZookeeperClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoRpc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/rpc-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/rpc-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/rpc-demo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-demo-api/rpc-demo-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/classes/demo/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/classes/demo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/classes/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/classes/demo/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/classes/demo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/test-classes/com/lxb/demo/model/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/test-classes/com/lxb/demo/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/test-classes/com/lxb/demo/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/test-classes/com/lxb/demo/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-api/target/test-classes/com/lxb/demo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-client/rpc-demo-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-demo-client/rpc-demo-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-client/target/classes/demo/DemoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-server/rpc-demo-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-demo-server/rpc-demo-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-server/target/classes/demo/ServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-server/target/classes/demo/config/BeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-server/target/classes/demo/rpc/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-demo-server/target/classes/demo/rpc/UserServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,15 +144,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -79,95 +155,99 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-demo-client/src/main/java/demo/DemoClient.java">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="374">
+              <caret line="17" column="108" selection-start-line="17" selection-start-column="108" selection-end-line="17" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/service/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/Error.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="320">
+              <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/exception/RpcException.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.jar!/io/netty/channel/nio/NioEventLoopGroup.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcNettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/OrderServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcProtocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,21 +269,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc-core/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcResponse.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/exception/RpcException.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcProtocol.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcEncoder.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClientSyncHandler.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClentInitializer.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcNettyServer.java" />
         <option value="$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/model/User.java" />
         <option value="$PROJECT_DIR$/rpc-demo-api/pom.xml" />
@@ -214,7 +286,6 @@
         <option value="$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/service/OrderService.java" />
         <option value="$PROJECT_DIR$/rpc-demo-client/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-demo-client/src/main/java/demo/DemoClient.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java" />
         <option value="$PROJECT_DIR$/rpc-demo-server/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/OrderServiceImpl.java" />
@@ -222,7 +293,24 @@
         <option value="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/ServerApplication.java" />
         <option value="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/config/BeanConfig.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcServerHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/annotation/RpcService.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/ServiceProviderDesc.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/ProviderInfo.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcDesc.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcProviderDesc.java" />
+        <option value="$PROJECT_DIR$/rpc-core/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/ZookeeperClient.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/DiscoverServer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/DiscoveryClient.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java" />
       </list>
     </option>
   </component>
@@ -238,41 +326,14 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="aliyun" />
-      </list>
-    </option>
-    <option name="disabledProfiles">
-      <list>
-        <option value="bosszp" />
-      </list>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/rpc-core/rpc-core.iml" />
-        <option value="$PROJECT_DIR$/rpc-demo-api/rpc-demo-api.iml" />
-        <option value="$PROJECT_DIR$/rpc-demo-client/rpc-demo-client.iml" />
-        <option value="$PROJECT_DIR$/rpc-demo-server/rpc-demo-server.iml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="180" />
     <option name="y" value="112" />
     <option name="width" value="1080" />
@@ -284,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -336,7 +396,60 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="DiscoverServer" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="DiscoveryClient" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperClient" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
@@ -367,6 +480,40 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="NettyClientSync" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -382,6 +529,61 @@
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="RpcCglib" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="RpcClient" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="RpcClientCglib" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="RpcInvocationHandler" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="RpcProxy" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
               <item name="rpc-demo-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,16 +619,6 @@
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-demo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
               <item name="rpc-demo-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -458,16 +650,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-demo-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="DemoClient" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
@@ -526,61 +708,39 @@
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-demo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderServiceImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-demo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="UserServiceImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: io.netty:netty-transport:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.netty:netty-transport:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-transport-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.netty:netty-transport:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-transport-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.netty:netty-transport:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-transport-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="channel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.netty:netty-transport:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-transport-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="channel" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
@@ -588,8 +748,8 @@
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.netty:netty-transport:4.1.34.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-transport-4.1.34.Final.jar" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="channel" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
@@ -598,104 +758,34 @@
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="MultithreadEventLoopGroup" type="1a9f42e2:ClassTreeNode" />
+              <item name="Maven: org.apache.curator:curator-x-discovery:5.1.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.curator:curator-x-discovery:5.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-x-discovery-5.1.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.curator:curator-x-discovery:5.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-x-discovery-5.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="MultithreadEventExecutorGroup" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.45.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.45.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="CharsetUtil" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="byte-buddy-1.10.18.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="byte-buddy-1.10.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebuddy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="byte-buddy-1.10.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebuddy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="byte-buddy-1.10.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebuddy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicType" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="byte-buddy-1.10.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebuddy" type="462c0819:PsiDirectoryNode" />
-              <item name="implementation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.bytebuddy:byte-buddy:1.10.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="byte-buddy-1.10.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebuddy" type="462c0819:PsiDirectoryNode" />
-              <item name="implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="InvocationHandlerAdapter" type="1a9f42e2:ClassTreeNode" />
+              <item name="Maven: org.apache.curator:curator-x-discovery:5.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-x-discovery-5.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceInstance" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -703,11 +793,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -793,24 +887,24 @@
       <workItem from="1609071638337" duration="110000" />
       <workItem from="1609071758283" duration="7634000" />
       <workItem from="1609083807452" duration="1928000" />
+      <workItem from="1609138170469" duration="4755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9672000" />
+    <option name="totallyTimeSpent" value="14540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26862463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
@@ -826,6 +920,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -843,146 +938,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClientSyncHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClentInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1270">
-          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar!/net/bytebuddy/implementation/InvocationHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar!/net/bytebuddy/dynamic/DynamicType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="778" column="32" selection-start-line="778" selection-start-column="32" selection-end-line="778" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.45.Final/netty-all-4.1.45.Final-sources.jar!/io/netty/util/CharsetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.45.Final/netty-all-4.1.45.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.45.Final/netty-all-4.1.45.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.45.Final/netty-all-4.1.45.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding>
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/model/a.java" />
     <entry file="file://$PROJECT_DIR$/rpc-demo-api/src/test/java/com/lxb/demo/test.java" />
-    <entry file="file://$PROJECT_DIR$/rpc-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-demo-client/rpc-demo-client.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1023,16 +979,6 @@
     <entry file="file://$PROJECT_DIR$/rpc-demo-api/src/main/java/demo/User.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-demo-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1049,20 +995,8 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/config/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/rpc/a.java" />
+    <entry file="file://$PROJECT_DIR$/rpc-demo-server/src/main/java/demo/config/a.java" />
     <entry file="file://$PROJECT_DIR$/rpc-demo-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -1071,41 +1005,10 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1160,13 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/exception/RpcException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-309">
@@ -1176,13 +1072,6 @@
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#813#814#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1222,12 +1111,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoRpc.iml" />
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/exception/RpcException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/annotation/RpcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/ProviderInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/api/RpcProviderDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-x-discovery/5.1.0/curator-x-discovery-5.1.0.jar!/org/apache/curator/x/discovery/ServiceInstance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/DiscoverServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#697#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/ZookeeperClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/discovery/DiscoveryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="140" selection-start-line="140" selection-end-line="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4136#4137#0" expanded="true" />
+            <element signature="e#4185#4186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClentInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClientSyncHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientCglib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcClientJdk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcCglib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/proxy/RpcByteBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="108" selection-start-line="17" selection-start-column="108" selection-end-line="17" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.jar!/io/netty/channel/nio/NioEventLoopGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1235,9 +1344,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rpc-core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,5 +7,7 @@ package com.lxb.demo.proxy;
  */
 public interface RpcClient {
 
-    <T> T create(final Class<T> serviceClass, final String url);
+
+    <T> T create(final Class<T> serviceClass, String group, String version);
+
 }

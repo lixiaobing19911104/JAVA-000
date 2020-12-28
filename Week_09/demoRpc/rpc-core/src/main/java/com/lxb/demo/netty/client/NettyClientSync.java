@@ -48,7 +48,7 @@ public class NettyClientSync {
     }
 
     private ConcurrentHashMap<String, Channel> channelPool = new ConcurrentHashMap<>();
-    private EventLoopGroup                     clientGroup = new NioEventLoopGroup(new ThreadFactoryBuilder().setNameFormat("client work-%d").build());
+    private EventLoopGroup                     clientGroup = new NioEventLoopGroup(0, new ThreadFactoryBuilder().setNameFormat("client work-%d").build());
 
     private NettyClientSync() {
     }

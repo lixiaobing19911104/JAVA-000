@@ -9,9 +9,9 @@ import net.sf.cglib.proxy.Enhancer;
  */
 public class RpcCglib extends RpcProxy implements RpcClient {
     @Override
-    protected <T> Object newProxy(Class<T> serviceClass, String url) {
+    protected <T> Object newProxy(Class<T> serviceClass, String group, String version) {
         Enhancer enhancer = new Enhancer();
-        enhancer.setCallback(new RpcInvocationHandler(serviceClass, url));
+        enhancer.setCallback(new RpcInvocationHandler(serviceClass, group, version));
         enhancer.setSuperclass(serviceClass);
         return enhancer.create();
     }
