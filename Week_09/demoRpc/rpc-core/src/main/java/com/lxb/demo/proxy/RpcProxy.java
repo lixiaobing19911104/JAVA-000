@@ -10,6 +10,9 @@ import java.util.concurrent.ConcurrentMap;
  * @Description:
  */
 public abstract class RpcProxy {
+    public <T> T create(Class<T> serviceClass) {
+       return create(serviceClass, "default", "default");
+    }
 
     public <T> T create(Class<T> serviceClass, String group, String version) {
         if (!isExist(serviceClass.getName())) {

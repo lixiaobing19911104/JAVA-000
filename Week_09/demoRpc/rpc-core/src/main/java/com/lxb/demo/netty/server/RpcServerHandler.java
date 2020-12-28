@@ -5,6 +5,7 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.lxb.demo.api.RpcRequest;
 import com.lxb.demo.api.RpcResponse;
 import com.lxb.demo.netty.common.RpcProtocol;
+import com.lxb.demo.proxy.ProviderServiceManagement;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.util.CharsetUtil;
@@ -22,10 +23,8 @@ import java.util.Arrays;
 @Slf4j
 public class RpcServerHandler extends SimpleChannelInboundHandler<RpcProtocol> {
 
-    private ApplicationContext applicationContext;
 
-    public RpcServerHandler(ApplicationContext applicationContext) {
-        this.applicationContext = applicationContext;
+    public RpcServerHandler() {
     }
 
     @Override
@@ -51,7 +50,7 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<RpcProtocol> {
     private RpcResponse invoke(RpcRequest request) {
         RpcResponse rpcResponse  = new RpcResponse();
         String      serviceClass = request.getServiceClass();
-        Object      service      = applicationContext.getBean(serviceClass);
+        Object service = ProviderServiceManagement.getProviderService(request);
         try {
             Method method = resolveMethodFromClass(service.getClass(), request.getMethod());
             Object result = method.invoke(service, request.getArgv());

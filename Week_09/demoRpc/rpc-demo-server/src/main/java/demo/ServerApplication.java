@@ -1,6 +1,7 @@
 package demo;
 
 import com.lxb.demo.netty.server.RpcNettyServer;
+import com.lxb.demo.proxy.ProviderServiceManagement;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -15,13 +16,11 @@ import org.springframework.context.annotation.Import;
  */
 @SpringBootApplication
 @Slf4j
-@Import(RpcNettyServer.class)
 public class ServerApplication implements ApplicationRunner {
 
-    private final RpcNettyServer rpcNettyServer;
 
-    public ServerApplication(RpcNettyServer rpcNettyServer) {
-        this.rpcNettyServer = rpcNettyServer;
+    public ServerApplication() {
+
     }
 
     public static void main(String[] args) {
@@ -31,11 +30,14 @@ public class ServerApplication implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) {
         try {
+            final int port = 8080;
+            ProviderServiceManagement.init("com.rpc.server.demo.service.impl", port);
+
+            final RpcNettyServer rpcNettyServer = new RpcNettyServer(port);
+
             rpcNettyServer.run();
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            rpcNettyServer.destroy();
         }
     }
 }

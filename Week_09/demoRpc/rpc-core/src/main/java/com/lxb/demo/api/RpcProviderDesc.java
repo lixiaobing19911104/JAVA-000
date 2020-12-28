@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @Builder
-@NoArgsConstructor
 public class RpcProviderDesc {
     String  serviceName;
     String  host;

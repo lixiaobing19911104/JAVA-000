@@ -6,6 +6,7 @@ package com.lxb.demo.proxy;
  * @Description:
  */
 public interface RpcClient {
+    <T> T create(final Class<T> serviceClass);
 
 
     <T> T create(final Class<T> serviceClass, String group, String version);

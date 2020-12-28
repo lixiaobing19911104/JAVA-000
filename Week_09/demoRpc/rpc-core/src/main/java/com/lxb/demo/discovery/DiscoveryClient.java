@@ -32,14 +32,21 @@ public class DiscoveryClient extends ZookeeperClient {
     public DiscoveryClient()  {
         serviceDiscovery = ServiceDiscoveryBuilder.builder(String.class)
                 .client(curatorFramework)
-                .basePath("/" + REGISTER_ROOT_PATH)
+                .basePath("/" )
                 .build();
         try {
             serviceDiscovery.start();
         } catch (Exception e) {
             e.printStackTrace();
         }
+        try {
+            getAllProviders();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         this.resourcesCache = CuratorCache.build(this.curatorFramework, "/");
+        watchResources();
 
     }
 

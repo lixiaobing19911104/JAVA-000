@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
  * @Description:
  */
 @Data
-@NoArgsConstructor
 public class ProviderInfo {
     private String id;
     private String url;
