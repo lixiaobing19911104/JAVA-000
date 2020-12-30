@@ -15,29 +15,16 @@
  * limitations under the License.
  */
 
-package demo;
+package com.lxb.demo.filter;
 
-import com.lxb.demo.netty.server.RpcNettyServer;
-import com.lxb.demo.proxy.ProviderServiceManagement;
+import com.lxb.demo.api.ProviderInfo;
+
+import java.util.List;
 
 /**
  * @author lw1243925457
  */
-public class ServerApplication2 {
+public interface RpcFilter {
 
-    public static void main(String[] args) throws Exception {
-        int port = 8081;
-
-        ProviderServiceManagement.init("demo.rpc2", port);
-
-        final RpcNettyServer rpcNettyServer = new RpcNettyServer(port);
-
-        try {
-            rpcNettyServer.run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            rpcNettyServer.destroy();
-        }
-    }
+    List<ProviderInfo> filter(List<ProviderInfo> providers, List<String> tags);
 }

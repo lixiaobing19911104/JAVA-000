@@ -9,7 +9,7 @@ import demo.service.OrderService;
 /**
  * @author lw
  */
-@RpcService(service = "demo.service.OrderServices", group = "g1", version = "1.0.0")
+@RpcService(service = "demo.service.OrderService", tags = "tag2", weight = 8)
 public class OrderServiceImpl implements OrderService {
 
     @Override

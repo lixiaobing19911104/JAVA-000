@@ -18,4 +18,8 @@ public @interface RpcService {
     String group() default "default";
 
     String version() default "default";
+
+    String tags() default "";
+
+    int weight() default 1;
 }

@@ -1,6 +1,5 @@
 package demo.rpc;
 
-
 import com.lxb.demo.annotation.RpcService;
 import com.lxb.demo.exception.RpcException;
 import demo.Order;
@@ -9,7 +8,7 @@ import demo.service.OrderService;
 /**
  * @author lw
  */
-@RpcService(service = "demo.service.OrderServices")
+@RpcService(service = "demo.service.OrderService")
 public class OrderServiceImpl implements OrderService {
 
     @Override

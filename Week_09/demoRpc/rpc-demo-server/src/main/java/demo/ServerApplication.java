@@ -1,43 +1,42 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package demo;
 
 import com.lxb.demo.netty.server.RpcNettyServer;
 import com.lxb.demo.proxy.ProviderServiceManagement;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
-
 /**
- * 不使用 spring boot web，启动 netty server 进行监听
- *
- * @author lw
+ * @author lw1243925457
  */
-@SpringBootApplication
-@Slf4j
-public class ServerApplication implements ApplicationRunner {
+public class ServerApplication {
 
+    public static void main(String[] args) throws Exception {
 
-    public ServerApplication() {
+        final int port = 8080;
+        ProviderServiceManagement.init("demo.rpc", port);
 
-    }
+        final RpcNettyServer rpcNettyServer = new RpcNettyServer(port);
 
-    public static void main(String[] args) {
-        SpringApplication.run(ServerApplication.class, args);
-    }
-
-    @Override
-    public void run(ApplicationArguments args) {
         try {
-            final int port = 8080;
-            ProviderServiceManagement.init("com.rpc.server.demo.service.impl", port);
-
-            final RpcNettyServer rpcNettyServer = new RpcNettyServer(port);
-
             rpcNettyServer.run();
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            rpcNettyServer.destroy();
         }
     }
 }
