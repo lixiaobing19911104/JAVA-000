@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8808b59-33f1-452c-97fd-2fcd6983612a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/java/com/lxb/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/java/com/lxb/cluster/JedisCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/java/com/lxb/hazelcast/HazelcastDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/java/com/lxb/jedisson/RedissionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/java/com/lxb/jedisson/RedissionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/java/com/lxb/sentinel/SentinelJedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_12/redis-example/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_11/Redislock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_11/Redislock/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_12/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_12/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_13/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_13/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_08/tcc_test/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1100">
-                <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/client/NettyClientSync.java">
           <provider selected="true" editor-type-id="text-editor" />
@@ -61,12 +41,24 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_12/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="179">
-                <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <first_editor relative-caret-position="332">
+                <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week_13/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="503">
+                <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -130,6 +122,7 @@
         <option value="$PROJECT_DIR$/Week_08/XATest/README.md" />
         <option value="$PROJECT_DIR$/Week_08/tcc_test/README.md" />
         <option value="$PROJECT_DIR$/Week_12/README.md" />
+        <option value="$PROJECT_DIR$/Week_13/README.md" />
       </list>
     </option>
   </component>
@@ -141,11 +134,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-675" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="180" />
+    <option name="y" value="112" />
+    <option name="width" value="1080" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -174,10 +167,16 @@
               <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
               <item name="Week_12" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JAVA-000" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-000" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_13" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -189,14 +188,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -285,7 +283,8 @@
       <workItem from="1606981476871" duration="22000" />
       <workItem from="1608794954665" duration="256000" />
       <workItem from="1608795684044" duration="4346000" />
-      <workItem from="1609918508554" duration="747000" />
+      <workItem from="1609918508554" duration="992000" />
+      <workItem from="1610543511104" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="第一周作业">
       <created>1602920680428</created>
@@ -371,17 +370,24 @@
       <option name="project" value="LOCAL" />
       <updated>1608877219700</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="redis">
+      <created>1610070325353</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610070325353</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24598000" />
+    <option name="totallyTimeSpent" value="25108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-675" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3474212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35243553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +401,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25542784" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25465837" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -466,7 +472,8 @@
     <MESSAGE value="netty gateway" />
     <MESSAGE value="测试建表sql" />
     <MESSAGE value="tcc测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="tcc测试" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -765,6 +772,9 @@
     <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/client/RpcClientSyncHandler.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/server/RpcNettyServer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -777,14 +787,21 @@
     <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcEncoder.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_09/demoRpc/rpc-core/src/main/java/com/lxb/demo/netty/common/RpcDecoder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_12/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="179">
-            <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <first_editor relative-caret-position="332">
+            <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_13/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="503">
+            <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
