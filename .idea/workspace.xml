@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8808b59-33f1-452c-97fd-2fcd6983612a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_13/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_13/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f8808b59-33f1-452c-97fd-2fcd6983612a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/Week_13/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="503">
-                <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
+              <first_editor relative-caret-position="103">
+                <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -284,7 +281,7 @@
       <workItem from="1608794954665" duration="256000" />
       <workItem from="1608795684044" duration="4346000" />
       <workItem from="1609918508554" duration="992000" />
-      <workItem from="1610543511104" duration="265000" />
+      <workItem from="1610543511104" duration="481000" />
     </task>
     <task id="LOCAL-00001" summary="第一周作业">
       <created>1602920680428</created>
@@ -377,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1610070325353</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="week13">
+      <created>1610544206535</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544206535</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25108000" />
+    <option name="totallyTimeSpent" value="25324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -473,7 +477,8 @@
     <MESSAGE value="测试建表sql" />
     <MESSAGE value="tcc测试" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="week13" />
+    <option name="LAST_COMMIT_MESSAGE" value="week13" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -800,8 +805,8 @@
     <entry file="file://$PROJECT_DIR$/Week_13/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="503">
-            <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
+          <first_editor relative-caret-position="103">
+            <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
